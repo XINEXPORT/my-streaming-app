@@ -3,9 +3,7 @@
     "mystreamingapp": {
       "dependsOn": [
         {
-          "attributes": [
-            "UserPoolId"
-          ],
+          "attributes": ["UserPoolId"],
           "category": "auth",
           "resourceName": "mystreamingapp23ae81d1"
         }
@@ -40,21 +38,15 @@
       "dependsOn": [],
       "frontendAuthConfig": {
         "mfaConfiguration": "OFF",
-        "mfaTypes": [
-          "SMS"
-        ],
+        "mfaTypes": ["SMS"],
         "passwordProtectionSettings": {
           "passwordPolicyCharacters": [],
           "passwordPolicyMinLength": 8
         },
-        "signupAttributes": [
-          "EMAIL"
-        ],
+        "signupAttributes": ["EMAIL"],
         "socialProviders": [],
         "usernameAttributes": [],
-        "verificationMechanisms": [
-          "EMAIL"
-        ]
+        "verificationMechanisms": ["EMAIL"]
       },
       "providerPlugin": "awscloudformation",
       "service": "Cognito"
