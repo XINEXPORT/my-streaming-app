@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "mystreamingapp",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authmystreamingapp23ae81d1",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2025-04-10T02:49:06.128Z"
+}

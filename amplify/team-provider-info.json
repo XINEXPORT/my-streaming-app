@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mystreamingapp-dev-2a525-authRole",
+      "UnauthRoleArn": "arn:aws:iam::568164034746:role/amplify-mystreamingapp-dev-2a525-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::568164034746:role/amplify-mystreamingapp-dev-2a525-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-mystreamingapp-dev-2a525-deployment",
+      "UnauthRoleName": "amplify-mystreamingapp-dev-2a525-unauthRole",
+      "StackName": "amplify-mystreamingapp-dev-2a525",
+      "StackId": "arn:aws:cloudformation:us-east-1:568164034746:stack/amplify-mystreamingapp-dev-2a525/c76c1ae0-15b5-11f0-abae-0affe31d6205",
+      "AmplifyAppId": "d2ig52aoeujqxw"
+    },
+    "categories": {
+      "auth": {
+        "mystreamingapp23ae81d1": {}
+      },
+      "api": {
+        "mystreamingapp": {}
+      }
+    }
+  }
+}
